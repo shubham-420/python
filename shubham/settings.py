@@ -27,7 +27,7 @@ SECRET_KEY = '$nh8^2wfett26l(*$&oten^3e%w(+4yu6hn=u+kq(0+uf34$a)'
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com']
+ALLOWED_HOSTS = ['demoheroku1234.herokuapp.com']
 
 
 
