@@ -1,1 +1,1 @@
-web: gunicorn demoheroku1234.wsgi --log-file -
+web: gunicorn shubham.wsgi --log-file -
