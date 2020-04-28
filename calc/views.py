@@ -10,3 +10,4 @@ def home(request):
 def add(request):
     result = "weather is good"
     return render (request, 'result.html', {'result': result})
+

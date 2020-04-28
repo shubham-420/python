@@ -1,13 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>hello!!{{name}}</h1>
+<h1> Weather Predictor by group 14 </h1>
 <form action="add" method = 'post'>
     {% csrf_token %}
-        <label for="birthday">Birthday:</label>
+        <label for="birthday">Enter Date:</label>
         <input type="date" id="birthday" name="birthday">
         <input type="submit">
 </form>
-<a href = "accounts/register"> Register </a>
 
 {% endblock%}
