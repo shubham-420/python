@@ -7,7 +7,9 @@ from .models import Result
 def home(request):
     return render(request, 'home.html', {'name': 'shubham'})
 
-def add(request):
-    result = "weather is good"
-    return render (request, 'result.html', {'result': result})
 
+
+
+def add(request):
+    name = request.POST['birthday']
+    return render (request, 'result.html', {'ans': name})
