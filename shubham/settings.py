@@ -25,8 +25,8 @@ SECRET_KEY = '$nh8^2wfett26l(*$&oten^3e%w(+4yu6hn=u+kq(0+uf34$a)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['demoheroku1234.herokuapp.com']
+ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['demoheroku1234.herokuapp.com']
 
 
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_numpy',
     'herokuapp',
 ]
 
